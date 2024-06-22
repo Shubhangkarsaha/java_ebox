@@ -1,19 +1,19 @@
 import java.util.*;
 
 class Circle{
-public static float calArea(float radius){
- 	float pi = (22f / 7f);
-	return(pi * radius * radius);
-}
+	public static float calArea(float radius){
+	 	float pi = (22f / 7f);
+		return(pi * radius * radius);
+	}
 }
 
 public class Main{
-public static void main(String[] args){
-Scanner sc = new Scanner(System.in);
-System.out.println("Enter the radius of circle :");
-float radius = sc.nextFloat();
-double area = Circle.calArea(radius);
-System.out.printf("The area of circle is %.2f.", area);
-sc.close();
-}
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the radius of circle :");
+		float radius = sc.nextFloat();
+		double area = Circle.calArea(radius);
+		System.out.printf("The area of circle is %.2f.", area);
+		sc.close();
+	}
 }
